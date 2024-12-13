@@ -1,0 +1,91 @@
+{
+    "_id": "mrDi3v933gsmnw25",
+    "img": "icons/skills/melee/strike-weapon-polearm-ice-blue.webp",
+    "name": "Telekinetic Maneuver",
+    "system": {
+        "ability": {
+            "value": ""
+        },
+        "area": null,
+        "category": {
+            "value": "spell"
+        },
+        "components": {
+            "somatic": true,
+            "verbal": true
+        },
+        "cost": {
+            "value": ""
+        },
+        "damage": {
+            "value": {}
+        },
+        "description": {
+            "value": "<p>With a rush of telekinetic power, you move a foe or something they carry. You can attempt to Disarm, Shove, or Trip the target using a spell attack roll instead of an Athletics check.</p>"
+        },
+        "duration": {
+            "value": ""
+        },
+        "hasCounteractCheck": {
+            "value": false
+        },
+        "level": {
+            "value": 2
+        },
+        "materials": {
+            "value": ""
+        },
+        "prepared": {
+            "value": ""
+        },
+        "primarycheck": {
+            "value": ""
+        },
+        "publication": {
+            "license": "OGL",
+            "remaster": false,
+            "title": "Pathfinder Core Rulebook"
+        },
+        "range": {
+            "value": "60 feet"
+        },
+        "rules": [],
+        "save": {
+            "basic": "",
+            "value": ""
+        },
+        "secondarycasters": {
+            "value": ""
+        },
+        "secondarycheck": {
+            "value": ""
+        },
+        "spellType": {
+            "value": "attack"
+        },
+        "sustained": {
+            "value": false
+        },
+        "target": {
+            "value": "1 creature"
+        },
+        "time": {
+            "value": "2"
+        },
+        "traditions": {
+            "value": [
+                "arcane",
+                "occult"
+            ]
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "attack",
+                "force",
+                "evocation"
+            ]
+        }
+    },
+    "type": "spell"
+}

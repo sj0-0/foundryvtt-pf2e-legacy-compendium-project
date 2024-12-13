@@ -1,0 +1,60 @@
+<li
+    class="item attack flexrow{{#if action.description}} expanded{{/if}}"
+    data-action-index="{{index}}"
+    data-item-type="melee"
+    data-strike=""
+    data-item-id="{{action.sourceId}}"
+>
+    <h4 class="tags">
+        {{#if action.description}}
+            <a data-action="toggle-summary">
+                <strong>{{localize action.attackRollType}}</strong>
+                <span class="action-glyph">{{action.glyph}}</span>
+                {{action.label}}
+            </a>
+        {{else}}
+            <span>
+                <strong>{{localize action.attackRollType}}</strong>
+                <span class="action-glyph">{{action.glyph}}</span>
+                {{action.label}}
+            </span>
+        {{/if}}
+        {{#each action.traits as |trait|}}
+            <div
+                class="tag tag_transparent"
+                data-tooltip="{{trait.description}}"
+                data-tooltip-direction="UP"
+                data-tooltip-class="text-left">{{localize trait.label}}</div>
+        {{/each}}
+        {{#each action.additionalEffects as |effect|}}
+            <div class="tag tag_transparent" data-tag="{{effect.tag}}">{{localize effect.label}}</div>
+        {{/each}}
+    </h4>
+
+    <div class="controls">
+        {{#if isEditable}}
+            <a class="item-edit edit" data-tooltip="{{localize "PF2E.NPC.Edit"}}"><i class="fa-solid fa-fw fa-edit"></i></a>
+            <a class="item-delete delete" data-tooltip="{{localize "PF2E.NPC.Remove"}}"><i class="fa-solid fa-fw fa-trash"></i></a>
+        {{/if}}
+    </div>
+
+    {{#if action.description}}
+        <div class="description item-summary">
+            {{{action.description}}}
+        </div>
+    {{/if}}
+
+    <div class="button-group">
+        <div class="attacks sub-section">
+            {{#each action.variants as |variant index|}}
+                <button type="button" class="attack-button" {{#if (eq index 0)}}data-tooltip="{{action.breakdown}}"{{/if}} data-action="strike-attack" data-variant-index="{{index}}">{{variant.label}}</button>
+            {{/each}}
+        </div>
+        {{#if action.item.dealsDamage}}
+            <div class="damage sub-section">
+                <button type="button" class="damage-button" data-action="strike-damage">{{action.damageFormula}}</button>
+                <button type="button" class="critical-button" data-action="strike-critical">{{localize "PF2E.CriticalDamageLabel"}}</button>
+            </div>
+        {{/if}}
+    </div>
+</li>
