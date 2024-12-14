@@ -6,9 +6,9 @@
     
     "author": "Babte",
 
-  "manifest": "file:///C:/Git/foundryvtt-pf2e-legacy-compendium-project/Source/test/primoTestCompendio/module.json",
-  "url": "file:///C:/Git/foundryvtt-pf2e-legacy-compendium-project/Source/test/primoTestCompendio",
-  "download": "file:///C:/Git/foundryvtt-pf2e-legacy-compendium-project/Source/test/primoTestCompendio/releases/module.zip",
+  "manifest": "https://github.com/sj0-0/foundryvtt-pf2e-legacy-compendium-project/blob/main/Source/test/primoTestCompendio/module.json",
+  "url": "https://github.com/sj0-0/foundryvtt-pf2e-legacy-compendium-project/blob/main/Source/test/primoTestCompendio",
+  "download": "https://github.com/sj0-0/foundryvtt-pf2e-legacy-compendium-project/blob/main/Source/test/primoTestCompendio/releases/module.zip",
     "compatibility": {
     "minimum": "12",
     "verified": "12"
