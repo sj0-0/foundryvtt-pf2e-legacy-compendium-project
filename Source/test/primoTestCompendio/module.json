@@ -1,0 +1,31 @@
+{
+    "name": "primoTestCompendio",
+    "version": "1.0.0",
+    "description": "Un compendio di test",
+    "type": "module",
+    
+    "author": "Babte",
+
+  "manifest": "file:///C:/Git/foundryvtt-pf2e-legacy-compendium-project/Source/test/primoTestCompendio/module.json",
+  "url": "file:///C:/Git/foundryvtt-pf2e-legacy-compendium-project/Source/test/primoTestCompendio",
+  "download": "file:///C:/Git/foundryvtt-pf2e-legacy-compendium-project/Source/test/primoTestCompendio/releases/module.zip",
+    "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "packs": [
+    {
+      "name": "conditions",
+      "label": "conditions",
+      "path": "packs/conditions",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "flags": {}
+    }
+]
+
+}
