@@ -6,9 +6,9 @@
     
     "author": "Babte",
 
-  "manifest": "https://github.com/sj0-0/foundryvtt-pf2e-legacy-compendium-project/releases/tag/comp3/module.json",
+  "manifest": "https://github.com/sj0-0/foundryvtt-pf2e-legacy-compendium-project/releases/tag/comp4/module.json",
   "url": "https://github.com/sj0-0/foundryvtt-pf2e-legacy-compendium-project",
-  "download": "https://github.com/sj0-0/foundryvtt-pf2e-legacy-compendium-project/releases/tag/comp3/module.zip",
+  "download": "https://github.com/sj0-0/foundryvtt-pf2e-legacy-compendium-project/releases/download/comp4/module.zip",
     "compatibility": {
     "minimum": "12",
     "verified": "12"
